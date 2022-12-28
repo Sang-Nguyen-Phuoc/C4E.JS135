@@ -1,0 +1,47 @@
+
+div {
+    border: 2px solid sandybrown; 
+    margin-bottom: 16px;
+}
+.Product {
+    border: 2px solid sienna;
+    background-image: url("Screenshot\ 2022-12-24\ 203159.png");
+}
+.Product2 {
+    border: 2px solid green;
+}
+
+#card {
+    border: 1px dashed red; 
+}
+
+#card p:nth-child(2n + 1) {
+    color: gray; 
+    text-align: center;
+}
+#card p:nth-child(2n) {
+    color: blueviolet; 
+    text-align: center;
+}
+#card p:last-child {
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: line-through;
+
+}
+.country {
+    background-color: black;
+    /* top right bottom left */
+    /* padding: 24px; */
+    /* padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    margin-left: 16px; */
+    /* padding: 12px, 20px, 10px, 12px;  top right bottom left  */
+    /* padding: 24px, 10px; oy, ox  */
+    padding: 30px 10px 8px; /* top, left-right bottom*/
+    color: white;
+    border: 2px solid greenyellow;
+    margin: 26px 20px 10px 10px;
+}
