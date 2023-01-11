@@ -1,0 +1,29 @@
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    height: 2000px;
+}
+
+.services-item {
+    border: 1px solid red;
+    padding: 24px;
+    margin: 10px;
+    width: 200px;
+}
+
+.services {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.service-1 {
+    height: 300px;
+}
+
+.service-2 {
+    height: 200px;
+}
