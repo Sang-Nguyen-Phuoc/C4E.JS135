@@ -9,11 +9,16 @@ body {
     position: relative;
 }
 
+.bigheader {
+    position: sticky; 
+    top: 0px; 
+
+}
+
 header {
     background-color: #fff;
     ;
     display: flex;
-    width: 75%;
     align-items: center;
     height: 100px;
     position: relative;
@@ -24,7 +29,7 @@ header {
 .img {
     justify-content: flex-start;
     position: absolute;
-    left: -40px;
+    left: 10%; 
 }
 
 .active {
@@ -161,13 +166,13 @@ header {
     font-size: 18px;
     font-weight: 500px;
     color: #33233c;
+    margin-left: 150px; 
 }
 .about-me-description-left p:first-child {
     margin-bottom: 10px;
     color: #000;
     font-weight: 700px;
-    font-size: 25p
-    x;
+    font-size: 25px;
 }
 
 .about-me-description-right-first {
@@ -196,5 +201,50 @@ header {
     height: 5px;
     background-color: purple;
     border-radius: 10px;
+}
 
+.right {
+   margin-top: 10px; 
+}
+
+.Services {
+    display: flex;
+    flex-direction: column;
+}
+
+.myservice {
+    text-align: center;
+    justify-content: center;
+}
+
+.myservice p{ 
+    color: #8a8fa3;
+    padding-bottom: 24px;
+}
+
+.service-items {
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.service-item {
+    background-color: #fff; 
+    border: 1px solid grey;
+    height: 200px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service-item i {
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+.service-item p {
+    color: #8a8fa3;
+    margin-top: 6px;
 }
