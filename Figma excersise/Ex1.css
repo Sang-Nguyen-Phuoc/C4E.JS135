@@ -111,6 +111,8 @@ body {
     margin-left: 75px;
     margin-right: 100px;
     margin-bottom: 72px;
+    justify-content: space-between;
+    gap: 60px;
 }
 
 .hero-info {
@@ -124,7 +126,17 @@ body {
     display: inline-flex;
     padding-bottom: 4px;
     margin-bottom: 30px;
-    border-bottom: 1px solid var(--primary-color-text1);
+    position: relative;
+}
+
+.hero-services::before {
+    position: absolute;
+    content: "";
+    background-color: var(--primary-color-text1);
+    width: 60%;
+    height: 2px;
+    bottom: -1px;
+
 }
 
 .hero-services p:not(:last-child) {
@@ -137,7 +149,6 @@ body {
     font-size: 15px;
     line-height: 22px;
     color: #808080;
-    border-bottom: 1px solid var(--primary-color-text1);
     
 }
 
@@ -152,15 +163,11 @@ body {
     content: "";
     background-color: #B00000;
     width: 100%;
-    height: 1px;
-    bottom: -1px;
+    height: 2px;
+    bottom: -5px;
 
 }
 
-.hero-image {
-    display: flex;
-    width: 50%;
-}
 
 .title {
     font-weight: 700;
@@ -208,3 +215,14 @@ body {
     border: 1px solid #000000;
 }
 
+
+.hero-image {
+    width: 50%;
+}
+
+.hero .hero-image img {
+    width: 522px;
+    object-fit: cover;
+    height: auto;
+
+}
