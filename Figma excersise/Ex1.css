@@ -149,7 +149,7 @@ body {
     font-size: 15px;
     line-height: 22px;
     color: #808080;
-    
+
 }
 
 .hero-services p.active {
@@ -198,11 +198,13 @@ body {
     display: flex;
     gap: 60px;
     align-items: center;
-    
+
 }
+
 .button:hover {
     transform: scale(1.1);
 }
+
 .first {
     background-color: #B00000;
     color: var(--white);
@@ -218,11 +220,67 @@ body {
 
 .hero-image {
     width: 50%;
+    position: relative;
 }
 
 .hero .hero-image img {
     width: 522px;
     object-fit: cover;
     height: auto;
-
 }
+
+.triangle1,
+.triangle2,
+.triangle3 {
+    position: absolute;
+}
+
+.triangle1 {
+    bottom: 161px;
+    left: -10px;
+    border-right: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid var(--pimary-color);
+    border-left: 25px solid var(--primary-color);
+}
+
+.triangle2 {
+    bottom: 410px;
+    left: 510px;
+    border-right: 25px solid var(--primary-color);
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid var(--pimary-color);
+    border-left: 25px solid transparent;
+}
+
+.triangle3 {
+    bottom: 40px;
+    left: 500px;
+    border-right: 45px solid var(--primary-color);
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid var(--pimary-color);
+    border-left: 45px solid transparent;
+}
+.up-down{
+    animation: up-down linear 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes up-down{
+    0% {
+      transform:  translate(1px,20px)  ;
+    }
+    24% {
+      transform:  translate(1px,30px)  ;
+    }
+    50% {
+      transform:  translate(1px,12px)  ;
+    }
+    74% {
+      transform:  translate(1px,22px)  ;
+    }
+    100% {
+      transform:  translate(1px,22px)  ;
+    }
+  }
