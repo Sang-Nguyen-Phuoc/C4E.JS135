@@ -7,6 +7,8 @@
 body {
     height: 2000px;
     position: relative;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .bigheader {
@@ -235,9 +237,8 @@ header {
 .service-item {
     background-color: #fff; 
     border: 1px solid grey;
-    height: 200px;
-    width: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: calc((100% - 20px) / 3);
 }
 
 .service-item i {

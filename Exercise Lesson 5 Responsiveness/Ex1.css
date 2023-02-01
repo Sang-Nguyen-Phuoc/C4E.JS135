@@ -38,23 +38,11 @@
     border: 1px solid grey;
     box-shadow: #fbfbfb;
     
+    
    
     
 }
 
 
-/* Responsive */
 
-@media screen and (max-width: 960px) {
-    .service-item {
-        max-width: calc((100% - 20px) / 2);
-    }
-}
 
-@media screen and (max-width: 690px) {
-    .service-item {
-        max-width: calc(100% - 20px);
-        font-size: 20px;
-    }
-    
-}
