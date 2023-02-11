@@ -42,13 +42,12 @@ function studentScoreAsc(Students) {
                 let tmp = Students[i];
                 Students[i] = Students[j];
                 Students[j] = tmp;
-                console.log(Students);
             }
         }   
     }
 }
 
-// console.log(checkScore(Students));
-// console.log(studentExcellent(Students));
+console.log(checkScore(Students));
+console.log(studentExcellent(Students));
 console.log(Students);
 studentScoreAsc(Students);
