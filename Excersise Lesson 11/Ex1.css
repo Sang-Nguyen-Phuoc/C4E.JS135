@@ -1,0 +1,11 @@
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.btn {
+    border-radius: 10%;
+    background-color: greenyellow;
+}

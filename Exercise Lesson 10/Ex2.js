@@ -10,17 +10,15 @@ const listOfStudents = [
 ]
 
 function studentName(listOfStudents) {
-    const StudentOver5 = [];
-    let demand = "a"; 
+    const StudentsOver5 = []; 
     const n = listOfStudents.length; 
     for (let i = 0; i < n; i++) {
-        if ((listOfStudents[i].name.includes(demand)) && (listOfStudents[i].score >= 5)) {
-            listOfStudents[i].name.replace(demand, "b");
-            StudentOver5.push(listOfStudents[i]);
+        if ((listOfStudents[i].name.includes("a")) && (listOfStudents[i].score > 5)) {
+            listOfStudents[i].name = listOfStudents[i].name.replace("a", "b");
+            StudentsOver5.push(listOfStudents[i]);
         }
     }
-    return StudentOver5; 
+    return StudentsOver5; 
 }
 
-const result = studentName(listOfStudents); 
-console.log(result);
+console.log(studentName(listOfStudents));

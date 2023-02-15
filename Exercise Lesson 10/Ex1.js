@@ -37,7 +37,7 @@ function studentExcellent(Students) {
 function studentScoreAsc(Students) {
     let num = Students.length;
     for (let i = 0; i < num - 1; i++) {
-        for (let j = i; j < num; j++ ) {
+        for (let j = 1 + i; j < num; j++ ) {
             if (Students[i].score < Students[j].score) {
                 let tmp = Students[i];
                 Students[i] = Students[j];
@@ -49,5 +49,6 @@ function studentScoreAsc(Students) {
 
 console.log(checkScore(Students));
 console.log(studentExcellent(Students));
-console.log(Students);
 studentScoreAsc(Students);
+console.log(Students);
+
