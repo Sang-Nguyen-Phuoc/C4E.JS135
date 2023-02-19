@@ -1,0 +1,35 @@
+local storage: lưu trữ vô thời hạn, dung lượng 5MB;
+lưu: setItem(key, value); 
+lấy: getItem(key, value); 
+xóa khi người dùng xóa trong applications
+
+vd: const isAuthenticated = true;
+     setItem("isAuthenticated", Authenticated);
+
+section storage: xóa khi người dùng xóa tab.
+
+-Set timeout / set interval; 
+
+setTimeOut: đặt thời gian chạy một hàm sau 1 khoảng thời gian nhất định.
+
+setTimeOut(function () {
+    tên hàm(); 
+
+}, thời gian(milisec)); 
+
+EX setTimeOut(function () {
+    hello();
+}, 5000);
+
+
+setInterval: thực hiện liên tục 1 hàm sau 1 khoảng thời gian.
+
+setInterval(function () {
+    tên hàm();
+}, thời gian(milisec)); 
+
+
+const now = new Date(); : lấy dữ liệu ngày thời gian từ máy tính.  
+now.gethHours(); tương tự...
+
+
