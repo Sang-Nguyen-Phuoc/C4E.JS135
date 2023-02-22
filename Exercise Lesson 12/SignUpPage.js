@@ -7,5 +7,6 @@ form.addEventListener("submit", (event) => {
         email: event.target.email.value, 
         password: event.target.pw.value, 
     }
-    localStorage.setItem("user", JSON.stringify(user)); 
+    localStorage.setItem("user", JSON.stringify(user));
+    window.location.href = "./SignInPage.html"; 
 }) 

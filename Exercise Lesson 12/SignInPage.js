@@ -10,4 +10,6 @@ form.addEventListener("submit", (event) => {
     }
     else 
         alert("Ban da nhap sai."); 
+
+    // localStorage.removeItem("user"); remove mot key value trong localStorage.
 })

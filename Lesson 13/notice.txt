@@ -1,0 +1,2 @@
+thư viện bootstrap
+link bootstrap vào trước body và script cuối body để sử dụng
