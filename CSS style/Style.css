@@ -1,0 +1,24 @@
+
+/* Co */
+.overview-container {
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 5px rgba(red, green, blue, alpha);
+}
+/* style hover vào cuộn lên */
+.object-overview {
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    transform: translateY(100%);
+    transition: tranform 0.3s ease-in;
+    overflow-y: auto; /* noi dung nhieu -> scroll */
+    max-height: 90%;
+}
+
+.object:hover .object-overview {
+    transform: translate(0);
+
+}
+

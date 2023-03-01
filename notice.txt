@@ -1,0 +1,51 @@
+ link script, css
+    search font chữ -> gg font -> sao chép đường link vào html 
+    
+    * {
+        box-sizing: border-box;
+        padding: 0; 
+        margin: 0; 
+    }
+
+    :root {
+        --primary--color:...
+        --secondary--color:  
+        (định nghĩa các màu chủ đạo)
+    }
+
+chia bố cục của một trang
+    header
+        main section 
+
+header: 
+    html trước, css sau. 
+
+
+
+CRUD: create -> read -> update -> delete
+
+arr.join: nối chuỗi 
+
+arr.push(): tương tự vector; 
+...num: gán dữ liệu kiểu tham trị. 
+const arr1 = [...arr, ...arr2]; == concat(arr,arr2); 
+
+object destructering: 
+thay vì dùng person.age, person.address.street
+dùng const {age, address, address} = person; 
+gọi age... bình thường. 
+
+delete person.age;
+delete person.name; : cach1;
+
+const {name, age, ...submitteddata} = person; 
+
+submitteddata; : gọi các objects không bao gồm name, age. 
+
+arr.map((nums/record: tên đặt cho có ý nghĩa) => {
+
+},): duyệt tuần tự các phần tử. 
+arr.filter: duyệt có điều kiện. 
+arr.reduce((data, num) => {
+
+}, [0: giá trị ban đầu của biến data])
